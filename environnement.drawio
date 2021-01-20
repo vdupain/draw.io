@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T17:04:05.431Z" agent="5.0 (Windows)" etag="pPDzr83rlXLeXmLCaMKo" version="14.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-20T17:14:58.533Z" agent="5.0 (Windows)" etag="IsVBz4ZRAWAYSQRDXKY2" version="14.2.5" type="github">
   <diagram id="UtawWkkkuRNCDnRygqRu" name="Page-1">
     <mxGraphModel dx="1027" dy="1093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,6 +236,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="BkkZDHYC6QuZQfSpvtJa-2" value="Consommateur" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fi5G1cxpYTyHCKTgN4Be-5">
+          <mxGeometry x="77.5" y="30" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BkkZDHYC6QuZQfSpvtJa-3" value="Middleware/Routage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fi5G1cxpYTyHCKTgN4Be-5">
+          <mxGeometry x="250" y="30" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BkkZDHYC6QuZQfSpvtJa-4" value="Fournisseur" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fi5G1cxpYTyHCKTgN4Be-5">
+          <mxGeometry x="485" y="30" width="50" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="fi5G1cxpYTyHCKTgN4Be-6" value="SI Partenaire" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="630" width="280" height="600" as="geometry" />
         </mxCell>
@@ -300,14 +309,14 @@
         </mxCell>
         <mxCell id="fi5G1cxpYTyHCKTgN4Be-15" value="" style="endArrow=none;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="400" as="sourcePoint" />
+            <mxPoint x="10" y="400" as="sourcePoint" />
             <mxPoint x="630" y="400" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fi5G1cxpYTyHCKTgN4Be-37" value="" style="endArrow=none;html=1;fontSize=10;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="200" as="sourcePoint" />
+            <mxPoint x="10" y="200" as="sourcePoint" />
             <mxPoint x="630" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -332,7 +341,7 @@
         <mxCell id="fi5G1cxpYTyHCKTgN4Be-62" value="API SOAP PICRIS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="520" y="525" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fi5G1cxpYTyHCKTgN4Be-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" target="fi5G1cxpYTyHCKTgN4Be-62" edge="1">
+        <mxCell id="fi5G1cxpYTyHCKTgN4Be-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="fi5G1cxpYTyHCKTgN4Be-62" edge="1" source="fi5G1cxpYTyHCKTgN4Be-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="268" as="sourcePoint" />
             <Array as="points">
@@ -349,7 +358,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fi5G1cxpYTyHCKTgN4Be-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" target="fi5G1cxpYTyHCKTgN4Be-70" edge="1">
+        <mxCell id="fi5G1cxpYTyHCKTgN4Be-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="fi5G1cxpYTyHCKTgN4Be-70" edge="1" source="fi5G1cxpYTyHCKTgN4Be-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="308" as="sourcePoint" />
             <Array as="points">
