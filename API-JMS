@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T08:35:48.409Z" agent="5.0 (Windows)" etag="242MZmFjqhikPp1vCVL3" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-22T08:37:02.352Z" agent="5.0 (Windows)" etag="RG48ldZkOZIiHrJJpp6M" version="14.2.6" type="github">
   <diagram id="DB7DYyGe6dCBV-LKf9_g" name="Page-1">
     <mxGraphModel dx="2062" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
             <mxPoint x="580" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-2" value="Routage géré par l&#39;APIM" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.04;position2=0;" vertex="1" parent="yvAMT9Jdo3WJvmyWWWsH-13">
+        <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-2" value="&lt;b&gt;Routage géré par l&#39;APIM&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.04;position2=0;" vertex="1" parent="yvAMT9Jdo3WJvmyWWWsH-13">
           <mxGeometry x="515" y="75" width="166" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yvAMT9Jdo3WJvmyWWWsH-14" value="QUALIF" style="swimlane;html=1;startSize=20;horizontal=0;" parent="yvAMT9Jdo3WJvmyWWWsH-12" vertex="1">
@@ -112,7 +112,7 @@
         <mxCell id="yvAMT9Jdo3WJvmyWWWsH-32" value="API Entreprise" style="rounded=1;whiteSpace=wrap;html=1;" parent="yvAMT9Jdo3WJvmyWWWsH-15" vertex="1">
           <mxGeometry x="540" y="85.5" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yvAMT9Jdo3WJvmyWWWsH-33" value="API Pircris" style="rounded=1;whiteSpace=wrap;html=1;" parent="yvAMT9Jdo3WJvmyWWWsH-15" vertex="1">
+        <mxCell id="yvAMT9Jdo3WJvmyWWWsH-33" value="API Pircris" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="yvAMT9Jdo3WJvmyWWWsH-15" vertex="1">
           <mxGeometry x="540" y="115.5" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yvAMT9Jdo3WJvmyWWWsH-37" value="APIM" style="rounded=0;whiteSpace=wrap;html=1;" parent="yvAMT9Jdo3WJvmyWWWsH-15" vertex="1">
@@ -231,8 +231,18 @@
             <mxPoint x="454" y="285" as="sourcePoint" />
             <mxPoint x="582" y="445.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="490" y="285" />
-              <mxPoint x="490" y="601" />
+              <mxPoint x="500" y="285" />
+              <mxPoint x="500" y="601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="yvAMT9Jdo3WJvmyWWWsH-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="454" y="285" as="sourcePoint" />
+            <mxPoint x="584" y="600.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="425" />
+              <mxPoint x="500" y="601" />
             </Array>
           </mxGeometry>
         </mxCell>
