@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T17:13:52.150Z" agent="5.0 (Windows)" etag="NJx3tMIKBTUCxSF3hR3h" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T08:11:06.300Z" agent="5.0 (Windows)" etag="Ge1HqR0ID1zETZb_XuCx" version="14.2.7" type="github">
   <diagram id="DB7DYyGe6dCBV-LKf9_g" name="Page-1">
-    <mxGraphModel dx="1037" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XuUBlldkIkATHeK3EOdW-38" value="EMS QUALIF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="130" width="154" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="Vw3KiEQnQfza69MFVmrH-1" value="Consommateur de Message" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="20" width="120" height="60" as="geometry" />
         </mxCell>
@@ -14,19 +17,16 @@
           <mxGeometry x="360" width="30" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yvAMT9Jdo3WJvmyWWWsH-12" value="SOLUTION 1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
-          <mxGeometry x="24" y="110" width="780" height="340" as="geometry" />
+          <mxGeometry x="24" y="110" width="780" height="350" as="geometry" />
         </mxCell>
         <mxCell id="yvAMT9Jdo3WJvmyWWWsH-13" value="INTEG" style="swimlane;html=1;startSize=20;horizontal=0;" parent="yvAMT9Jdo3WJvmyWWWsH-12" vertex="1">
-          <mxGeometry x="20" width="760" height="100" as="geometry" />
+          <mxGeometry x="20" width="760" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-39" value="Consommateur" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yvAMT9Jdo3WJvmyWWWsH-13" vertex="1">
           <mxGeometry x="66" y="35" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-40" value="Producteur" style="rounded=1;whiteSpace=wrap;html=1;" parent="yvAMT9Jdo3WJvmyWWWsH-13" vertex="1">
           <mxGeometry x="546" y="35" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-41" value="" style="shape=datastore;whiteSpace=wrap;html=1;rotation=-90;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yvAMT9Jdo3WJvmyWWWsH-13" vertex="1">
-          <mxGeometry x="340" width="30" height="100" as="geometry" />
         </mxCell>
         <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-42" value="" style="endArrow=classic;html=1;strokeColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="yvAMT9Jdo3WJvmyWWWsH-13" source="fmMvQ1CZ4i4TI4SBkcEm-41" target="fmMvQ1CZ4i4TI4SBkcEm-39" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -50,8 +50,11 @@
             <mxPoint x="-10" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-41" value="" style="shape=datastore;whiteSpace=wrap;html=1;rotation=-90;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yvAMT9Jdo3WJvmyWWWsH-13" vertex="1">
+          <mxGeometry x="340" width="30" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="yvAMT9Jdo3WJvmyWWWsH-14" value="QUALIF" style="swimlane;html=1;startSize=20;horizontal=0;" parent="yvAMT9Jdo3WJvmyWWWsH-12" vertex="1">
-          <mxGeometry x="20" y="100" width="760" height="120" as="geometry" />
+          <mxGeometry x="20" y="110" width="760" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-46" value="Consommateur" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yvAMT9Jdo3WJvmyWWWsH-14" vertex="1">
           <mxGeometry x="66" y="60" width="120" height="30" as="geometry" />
@@ -99,7 +102,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yvAMT9Jdo3WJvmyWWWsH-15" value="RECETTE" style="swimlane;html=1;startSize=20;horizontal=0;" parent="yvAMT9Jdo3WJvmyWWWsH-12" vertex="1">
-          <mxGeometry x="20" y="220" width="760" height="120" as="geometry" />
+          <mxGeometry x="20" y="230" width="760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XuUBlldkIkATHeK3EOdW-1" value="EMS REC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yvAMT9Jdo3WJvmyWWWsH-15">
+          <mxGeometry x="286" y="10" width="154" height="100" as="geometry" />
         </mxCell>
         <mxCell id="fmMvQ1CZ4i4TI4SBkcEm-53" value="Consommateur" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yvAMT9Jdo3WJvmyWWWsH-15" vertex="1">
           <mxGeometry x="70" y="60" width="120" height="30" as="geometry" />
